@@ -41,12 +41,12 @@ print(t)
 
 # complex number will work on all datatypes(except for string not containing digits)
 # boolean will show true for all datatypes.(except strings containing nothing)
-
+# string will work on every data-type.
 # TABLE
 
 # type casting   int   float   complex   bool   string
-#    int()        Y      Y        N       Y       Y(valid)
-#    float()      Y      Y        N       Y       Y(valid)
-#    complex()    Y      Y        Y       Y       Y(valid)
-#    bool()       Y      Y        Y       Y       Y
+#    int()        Y      Y        N       Y       Y (if string contains digits)
+#    float()      Y      Y        N       Y       Y (if string contains digits)
+#    complex()    Y      Y        Y       Y       Y (if string contains digits)
+#    bool()       Y      Y        Y       Y       Y (if string is not null)
 #    str()        Y      Y        Y       Y       Y
