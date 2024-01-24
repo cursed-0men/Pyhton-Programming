@@ -11,10 +11,10 @@ while low <= high:
     # The f before the string indicates an f-string.
     #  In this case, it's used to dynamically insert the values of the variables low and high into the string.
     if guess < n:
-        print("your guess is smaller")  # so we have to enter larger number
+        print("your guess is smaller, enter larger number")  # so we have to enter larger number
         low = guess + 1
     elif guess > n:
-        print("your guess is larger")  # so we have to enter smaller number
+        print("your guess is larger, enter smaller number")  # so we have to enter smaller number
         high = guess - 1
     else:
         print("Guess is correct.")
