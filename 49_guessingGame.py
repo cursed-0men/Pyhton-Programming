@@ -1,6 +1,6 @@
 # guessing number form 1-10.
 # i.e. Binary Search.
-# NOTE : PLEASE DO READ COMMENTS FOR CLARITY.
+# NOTE :READ COMMENTS🙏.
 import random
 n = random.randint(1, 10)
 # this will generate random number selected from 1-10.
