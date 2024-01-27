@@ -18,7 +18,7 @@ print(int(x))
 # string literals
 d = 'Dhyey'
 s = "Savaliya"
-print(d,s)
+print(d, s)
 
-price = input("enter price = ")
-print(price)
+age = input("enter age = ")
+print("AGE =", age)
